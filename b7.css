@@ -1,0 +1,31 @@
+.ad{
+    margin: 10px;
+    background-color: rgb(236, 143, 21);
+    text-align: center;
+    color: aliceblue;
+}
+
+.box1{
+    width: 50%;
+}
+.box2{
+    width: 100%;
+}
+.box3{
+    width: 90%;
+}
+.box4{
+    width: 10%;
+}
+.box5{
+    width: 50%;
+}
+.box6{
+    width: 60%;
+}
+.box7{
+    width: 40%;
+}
+.box1{
+    width: 80%;
+}

@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header {
+    height: 56px;
+    width: 100%;
+    background-color: rgb(0, 70, 70);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+}
+.header-list-item {
+    display: flex;
+    gap: 20px;
+}
+.header-item {
+    list-style: none;
+    color: aliceblue;
+}
+
+.search{
+    position: relative;
+}
+
+.icon-search{
+    color: black;
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+
+.client{
+    color: aqua;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 8px;
+}
+.search{
+    position: relative;
+    margin-right: 10px; /* thêm dòng này */
+}
+
+.icon-search{
+    color: black;
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+}
+.header-list-item {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between; /* thêm dòng này */
+}

@@ -1,0 +1,42 @@
+/*Reset all*/ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; /*căn chính giữa*/
+    gap: 10px; /*khoi mau cach nhau 10px */
+    height: 100vh;
+}
+
+.item {
+    height: 200px;
+    width: 200px;
+}
+
+.item:first-child{ /*thêm dòng này để chỉnh sửa thằng đầu*/
+    background-color: red;
+    height:200px;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 10%;
+}
+
+.item:nth-child(2){ /*thêm dòng này để chỉnh sửa thằng (n)*/
+    background-color: rgb(13, 168, 211);
+    height:200px;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 50%;
+}
+.item:last-child{ /*thêm dòng này để chỉnh sửa thằng đầu cuối*/
+    background-color: rgb(29, 191, 94);
+    height:200px;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 10%;
+}
